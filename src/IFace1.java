@@ -1,5 +1,5 @@
 public interface IFace1 {
-    String namme = "Steven G";
+    String name = "Steven G";
     public static void Animal() {
         System.out.println("Monkey see, Monkey do!");
     }

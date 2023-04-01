@@ -1,4 +1,4 @@
-public class Count {
+public class Count implements IFace1 {
     private Integer A;
     private Integer B;
     public Count(Integer a, Integer b) {
@@ -19,5 +19,8 @@ public class Count {
     }
     public String numbers() {
         return "First number: " + A + " Second number: " + B;
+    }
+    public String name() {
+        return IFace1.name;
     }
 }
